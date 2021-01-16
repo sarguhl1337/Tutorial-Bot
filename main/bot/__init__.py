@@ -28,7 +28,10 @@ class Bot(Botbase):
     def load(self):
         extentions = [
             "main.cogs.app",
-            "main.cogs.fun"
+            "main.cogs.fun",
+            "main.cogs.manage",
+            "main.cogs.info",
+            "main.cogs.math"
         ]
         
         for ext in extentions:
